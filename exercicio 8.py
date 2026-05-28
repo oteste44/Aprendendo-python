@@ -1,8 +1,8 @@
 import time
-
-# Contagem regressiva
-for i in range(10, -1, -1):
-    print(i)
+tempo = 10
+while tempo > 0:
     time.sleep(1)
+    print(tempo)
+    tempo -= 1
 
-print("Decolar!")
+print('decolar!')
