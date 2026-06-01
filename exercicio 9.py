@@ -1,31 +1,37 @@
 while True:
-    print('1.somar')
-    print('2.subtrair')
-    print('3.multiplicar')
-    print('4.dividir')
-    print('5.sair')
+    print('(1) Somar')
+    print('(2) Subtrair')
+    print('(3) Multiplicar')
+    print('(4) Dividir')
+    print('(5) Sair')
 
-    option = input('digite sua opcao.'))
-      if option == '1':
-        num1 = int(input('digite o numero'))
-        num2 = int(input('digite outro numero'))
+    option = input('Digite sua opção: ')
 
-        resultado =  num1 + num2
-        print('o resultado e', resultado)
+    if option == '5':
+        print('Saindo...')
+        break
 
-        elif opcao == "2"
+    if option not in ['1', '2', '3', '4']:
+        print('Opção inválida!')
+        continue
 
-        resultado = num1 - num2
-        print('resultado', resultado)
+    num1 = float(input('Digite um número: '))
+    num2 = float(input('Digite outro número: '))
 
-        elif opcao == '3'
-        num1 * num2
-        print('resultado', resultado)
+    if option == '1':
+        print('Resultado:', num1 + num2)
 
-        elif opcao '4'
-        num1 / num2
-        print('resultado', resultado)
+    elif option == '2':
+        print('Resultado:', num1 - num2)
 
-        else
+    elif option == '3':
+        print('Resultado:', num1 * num2)
+
+    elif option == '4':
+        if num2 == 0:
+            print('Não é possível dividir por zero!')
+        else:
+            print('Resultado:', num1 / num2)
+        print('Resultado:')
 
 
