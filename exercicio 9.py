@@ -35,3 +35,6 @@ while True:
         print('Resultado:')
 
 
+
+
+# A|E|I|O|U
