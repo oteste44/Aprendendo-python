@@ -37,4 +37,3 @@ while True:
 
 
 
-# A|E|I|O|U
