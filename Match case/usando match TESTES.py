@@ -37,11 +37,7 @@
 #
 
 
-# Calculadora de Dias da Semana
-# Enunciado: Crie um programa que receba um número inteiro de 1 a 7 do usuário. Utilizando a estrutura switch/match, exiba o dia da semana correspondente (1 para Domingo, 2 para Segunda-feira, etc.). Se o número estiver fora desse intervalo, exiba "Dia inválido".
 
-# while True:
-#     opcao = int(input('digite sua opçao:'))
 
 
 

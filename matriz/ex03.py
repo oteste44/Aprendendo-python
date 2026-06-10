@@ -23,11 +23,23 @@
 # prateleira = int(input('digite o numero da prateleira:'))
 # armario  = int(input('digite o numero do armario:'))
 #
-# for i in range(len(4))
-#     for c in i:
-# print([estoque][prateleira][armario])
+# for i in estoque:
+#     for c in estoque:
+#         print([estoque][prateleira][armario])
 
+dados = {
+    'nome': 'joao',
+    'idade': 21,
+    'sexo': 'M',
+    'altura': 1.80,
+    'temCNH': True
+}
 
+continuar = 's'
+while continuar == 's':
+    dados_pessoais = input('digite oq vc quer:')
+    print(dados.get(dados_pessoais,'valor nao encontrado!'))
+    continuar = input('quer continuar? (s/n):')[0].lower()
 
 
 
