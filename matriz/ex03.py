@@ -27,19 +27,32 @@
 #     for c in estoque:
 #         print([estoque][prateleira][armario])
 
-dados = {
-    'nome': 'joao',
-    'idade': 21,
-    'sexo': 'M',
-    'altura': 1.80,
-    'temCNH': True
-}
+# dados = {
+#     'nome': 'joao',
+#     'idade': 21,
+#     'sexo': 'M',
+#     'altura': 1.80,
+#     'temCNH': True
+# }
+#
+# dados['altura'] = 1.78
+# dados['peso'] = 92
+# dados.pop('idade')
+#
+# continuar = 's'
+# while continuar == 's':
+#     dados_pessoais = input('digite oq vc quer:')
+#     print(dados.get(dados_pessoais,'valor nao encontrado!'))
+#     continuar = input('quer continuar? (s/n):')[0].lower()
+#
+#     for dadoss,valor in dados.items():
+#         print(f'{dados_pessoais},: {valor}')
+#
+#
+#
+#
 
-continuar = 's'
-while continuar == 's':
-    dados_pessoais = input('digite oq vc quer:')
-    print(dados.get(dados_pessoais,'valor nao encontrado!'))
-    continuar = input('quer continuar? (s/n):')[0].lower()
+
 
 
 
@@ -87,4 +100,45 @@ while continuar == 's':
 #
 # for i in matriz_t:
 #     print(f'pisiçao{i+1} tem o valor')
+
+# exercicio da 1 - 1 dicionario de quadrado
+# pessoa = {
+#     'nome': 'alfredo',
+#     'cidade': 'fortaelza',
+#     'idade': 21
+# }
 #
+# print('---------------------------')
+# print(pessoa)
+
+# exercicio da 1 - 2 dicionario de quadrado
+
+
+# pessoa = {
+#     'nome': 'alfredo',
+#     'cidade': 'fortaelza',
+#     'idade': 21
+# }
+#
+# print('---------------------------')
+# print(pessoa)
+#
+#
+
+
+
+
+
+
+
+# exercicio da 1 - 3  dicionario de quadrado
+
+# dicionario_de_quadrados = {}
+#
+# for i in range(1,6):
+#     dicionario_de_quadrados.setdefault(i, i**2)
+#     print(dicionario_de_quadrados)
+
+
+
+
