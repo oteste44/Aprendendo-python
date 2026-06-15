@@ -26,6 +26,7 @@
 # for i in estoque:
 #     for c in estoque:
 #         print([estoque][prateleira][armario])
+from traceback import print_tb
 
 # dados = {
 #     'nome': 'joao',
@@ -51,11 +52,6 @@
 #
 #
 #
-
-
-
-
-
 # vendas = [
 #     [1200, 850, 900, 1500],
 #     [900, 1100, 1000, 1300],
@@ -126,11 +122,6 @@
 #
 
 
-
-
-
-
-
 # exercicio da 1 - 3  dicionario de quadrado
 
 # dicionario_de_quadrados = {}
@@ -138,6 +129,53 @@
 # for i in range(1,6):
 #     dicionario_de_quadrados.setdefault(i, i**2)
 #     print(dicionario_de_quadrados)
+
+# atividade da 1 - 5
+# palavra = {}
+# for chave in palavra:
+#     if chave not in palavra:
+#         palavra[chave] =1
+#     else:
+#         palavra[]
+
+
+
+
+
+# atividade da 1 - 6
+#
+# estoque  = {'teclado': 15, 'mouse': 22,'monitor': 8}
+#
+# print(estoque)
+# atualiza_estoque = False
+# continuar = 's'
+#
+# while continuar == 's':
+#     nome, quantidade = input('digite o que deseja e a quantidade:').split(',')
+#     for chave, valor in estoque.items():
+#         if nome == chave.lower():
+#             if valor == 0:
+#                 print('estoque esgotado')
+#
+#                 continue
+#
+#             if valor < int(quantidade):
+#                 print('estoque insuficiente!')
+#
+#                 continue
+#             else:
+#                 estoque[chave] -= int(quantidade)
+#                 atualiza_estoque = True
+#
+#     if atualiza_estoque:
+#         print('estoque atualizado')
+#         for chave, valor in estoque.items():
+#             print(f'{chave} : {valor}')
+#
+#     continuar = input('quer continuar? s/n:')[0].lower()
+
+
+
 
 
 
