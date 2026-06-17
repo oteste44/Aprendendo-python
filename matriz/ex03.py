@@ -26,8 +26,6 @@
 # for i in estoque:
 #     for c in estoque:
 #         print([estoque][prateleira][armario])
-from traceback import print_tb
-
 # dados = {
 #     'nome': 'joao',
 #     'idade': 21,
@@ -58,6 +56,7 @@ from traceback import print_tb
 #     [1500, 1600, 1400, 1800],
 #     [700, 600, 800, 900]
 # ]
+from statistics import quantiles
 
 # vendas_vendedores = []
 #
@@ -174,6 +173,40 @@ from traceback import print_tb
 #
 #     continuar = input('quer continuar? s/n:')[0].lower()
 
+estoque = {}
+carrinho = {}
+
+while True:
+
+    print()
+    print('-----SHOPEE-----')
+    print()
+
+    print('[1] Vizualizar Estoque')
+    print('[2] Adicionar Item ao Carrinho')
+    print('[3] Vizualizar Carrinho')
+    print('[4] Finalizar Compra')
+    print('[0] Sair do Sistema')
+
+    opcao = int(input('digite sua opcao:'))
+
+    def criar_produto(produto,quantidade,valor):
+        return  {
+            'produto' : produto,
+            'quantidade': quantidade,
+            'valor': valor
+        }
+    estoque = {
+    1:criar_produto('Monitor Husky 240hz',14,899.99),
+    2:criar_produto('Mouse redragon',25,249.99),
+    3:criar_produto('Gabinete dark flash',10,339.99),
+    4:criar_produto('Teclado attack shark',9,449.90)
+    }
+    match opcao:
+        case 1:
+            for p in estoque.items():
+                print(f'{p}')
+                
 
 
 

@@ -20,8 +20,5 @@ estoque = [
 # matriz_v = [linha for numero in estoque for linha in numero]
 # print(f'{sum(matriz_v)}')
 
-matriz_b = []
 
-soma = 0
-for i in range()
 
